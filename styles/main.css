@@ -1,0 +1,23 @@
+
+
+main {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  padding: 1rem;
+}
+.left-column {
+  flex: 1;
+  max-width: 220px;
+}
+
+.right-column {
+  flex: 3;
+}
+blockquote {
+margin-left: 1.5rem;
+  font-style: italic;
+  color: #555;
+  border-left: 4px solid #ccc;
+  padding-left: 1rem;
+}
